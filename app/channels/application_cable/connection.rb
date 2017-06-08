@@ -3,6 +3,7 @@ module ApplicationCable
     identified_by :current_user
 
     def connect
+      raise "BOOM"
       self.current_user = find_verified_user
       logger.add_tags 'ActionCable', current_user.name
     end

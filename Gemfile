@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.1'
+# gem 'rails', '~> 5.1'
+gem 'rails', git: 'git@github.com:yukideluxe/rails.git', branch: 'websockets-close-code'
 
 gem 'sqlite3'
 gem 'redis'
